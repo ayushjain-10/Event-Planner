@@ -28,7 +28,7 @@ const HomeSection = () => {
 	];
 	return (
 		<div className='w-full bg-black  md:px-[20px] px-[10px] py-10 flex justify-center flex-col items-center'>
-			<h2 className='text-2xl text-[#ecbf66] mb-12'>How it works?</h2>
+			<h2 className='text-2xl text-[#ecbf66] mb-12'>How it w</h2>
 			<div className='flex flex-col space-y-[50px] w-full py-4 md:px-[50px] px-[10px]'>
 				{array.map((item) => (
 					<div
