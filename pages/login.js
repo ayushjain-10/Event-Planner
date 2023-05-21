@@ -19,7 +19,7 @@ const login = () => {
 	return (
 		<div>
 			<Head>
-				<title>Login | EventTiz</title>
+				<title>Login | Event Planner</title>
 				<meta
 					name='description'
 					content='An event ticketing system built with NextJS and Firebase'
@@ -76,7 +76,7 @@ const login = () => {
 					</form>
 					<div className='absolute bottom-5 left-5'>
 						<p className='opacity-50 text-sm'>
-							<Link href='/'>EventTiz</Link> &copy; Copyright{" "}
+							<Link href='/'>Event Planner</Link> &copy; Copyright{" "}
 							{new Date().getFullYear()}{" "}
 						</p>
 					</div>
@@ -84,11 +84,11 @@ const login = () => {
 				<div className='login md:w-[40%] h-[100vh] relative'>
 					<div className='absolute bottom-5 right-5'>
 						<a
-							href='https://github.com/dha-stix'
+							href='https://github.com/ayushjain-10'
 							target='_blank'
 							className='text-gray-100'
 						>
-							Built by David Asaolu
+							Built by Ayush Jain
 						</a>
 					</div>
 				</div>

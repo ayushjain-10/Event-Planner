@@ -7,11 +7,11 @@ const Footer = () => {
 				{" "}
 				Powered by{" "}
 				<a
-					href='https://github.com/dha-stix'
+					href='https://github.com/ayushjain-10'
 					target='_blank'
 					className='text-[#705a2f]'
 				>
-					David Asaolu
+					Ayush Jain
 				</a>
 			</p>
 			<p className='opacity-50 text-sm'>
