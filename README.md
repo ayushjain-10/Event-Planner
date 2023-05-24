@@ -13,6 +13,7 @@
 ## Installation
 - Clone the project repository. Don't forget to star the repo 😉
 - Run `npm install` to install its dependencies.
+- Change `.env.local.md` to `.env.local` and fill in the environment variables. You can get the values from [EmailJS](https://dashboard.emailjs.com/admin)
 - Start the development server by running `npm run dev`
 
 ## Tools

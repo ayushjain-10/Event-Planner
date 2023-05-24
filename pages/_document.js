@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
 	return (
@@ -18,6 +18,14 @@ export default function Document() {
 			<body>
 				<Main />
 				<NextScript />
+				<script type="text/javascript"
+					src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+				</script>
+				<script type="text/javascript">
+					{(function () {
+						emailjs.init("PiKyWiHtK-V8mYoYn");
+					})()}
+				</script>
 			</body>
 		</Html>
 	);

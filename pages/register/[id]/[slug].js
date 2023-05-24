@@ -39,6 +39,8 @@ const RegisterPage = ({ event }) => {
 		setName("");
 	};
 	if (loading) {
+		console.log(email);
+		console.log(process.env.NEXT_PUBLIC_SERVICE_ID);
 		return <Loading title='Generating your ticket🤞🏼' />;
 	}
 	if (!event.title) {

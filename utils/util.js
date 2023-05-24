@@ -12,6 +12,7 @@ import {
 } from "@firebase/storage";
 import db, { storage, auth } from "./firebase";
 import emailjs from "@emailjs/browser";
+import React, { useRef } from 'react';
 
 import {
 	getDoc,
@@ -25,6 +26,7 @@ import {
 	where,
 	arrayUnion,
 } from "@firebase/firestore";
+
 
 const sendEmail = (
 	name,
@@ -40,7 +42,7 @@ const sendEmail = (
 	setLoading
 ) => {
 	emailjs
-		.send(
+		.sendForm(
 			process.env.NEXT_PUBLIC_SERVICE_ID,
 			process.env.NEXT_PUBLIC_TEMPLATE_ID,
 			{
@@ -62,6 +64,7 @@ const sendEmail = (
 				setSuccess(true);
 			},
 			(error) => {
+				console.log(email);
 				alert(error.text);
 			}
 		);
